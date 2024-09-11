@@ -1,0 +1,69 @@
+/* estilos.css */
+
+/* Definindo o esquema de cores */
+:root {
+    --cor-primaria: #3498db; /* Azul */
+    --cor-secundaria: #2ecc71; /* Verde */
+    --cor-fundo: #ecf0f1; /* Cinza claro */
+    --cor-texto: #2c3e50; /* Cinza escuro */
+    --cor-borda: #bdc3c7; /* Cinza médio */
+}
+
+/* Estilização geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização de elementos gerais */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0.5rem 0;
+    color: var(--cor-primaria);
+}
+
+/* Definindo espaçamentos e bordas para parágrafos */
+p {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+}
+
+/* Estilização de links */
+a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização de botões */
+button {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #2980b9; /* Tom mais escuro de azul */
+}
+
+/* Estilização de containers */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+}
